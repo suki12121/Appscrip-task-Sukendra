@@ -1,0 +1,162 @@
+.header-bg {
+  width: 1520px;
+  height: 180px;
+  border-bottom: 1px solid black;
+}
+.logo-bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.logo-heading {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.57px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #000000;
+  padding-left: 160px;
+}
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  top: 40px;
+  left: 96px;
+  padding: 0px 0.39px 0.34px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.icons-bg {
+  width: Hug (244px) px;
+  height: Hug (24px) px;
+  top: 46px;
+  left: 1100px;
+  gap: 24px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.filter-icon {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+.language-bg {
+  width: Hug (52px) px;
+  height: Hug (16px) px;
+  gap: 5px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.language-change {
+  width: Hug (52px) px;
+  height: Hug (16px) px;
+  gap: 5px;
+  opacity: 0px;
+  color: #252020;
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.tabs-bg {
+  width: Hug (636px) px;
+  height: Hug (24px) px;
+  top: 140px;
+  left: 402px;
+  gap: 64px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tabs {
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #252020;
+}
+.responsive {
+  display: none;
+}
+.home-shop-bg {
+  display: none;
+}
+/* For mobile view */
+@media (max-width: 768px) {
+  .home-shop-bg {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .divider {
+    width: 1px;
+    height: 20px;
+    margin: 0 10px;
+    background-color: #000;
+    border: none;
+  }
+  .responsive {
+    display: flex;
+    margin-right: 10px;
+  }
+  .header-logo-icon {
+    display: flex;
+    flex-direction: row;
+  }
+  .header-bg {
+    width: 640px;
+    height: 105px;
+    top: 24px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid black;
+  }
+  .logo-bg {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logo-heading {
+    padding-left: 20px;
+  }
+
+  .language-bg {
+    display: none; /* Hide language change in mobile view */
+  }
+  .tabs-bg {
+    display: none;
+  }
+  .home {
+    font-family: Simplon Norm;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: #bfc8cd;
+  }
+  .shop {
+    font-family: Simplon Norm;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: #252020;
+  }
+}

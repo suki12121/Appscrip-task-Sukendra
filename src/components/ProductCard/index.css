@@ -1,0 +1,50 @@
+.product-card {
+  width: 300px;
+  height: 542px;
+  top: 652px;
+  left: 728px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 45px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+.product-image {
+  width: 300px;
+  height: 399px;
+  top: 652px;
+  left: 1044px;
+  gap: 0px;
+  opacity: 0px;
+}
+.product-title {
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  color: #252020;
+}
+.product-price {
+  font-family: Simplon Norm;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: #888792;
+}
+.price-liked-bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-like-icon {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+.liked {
+  color: red;
+}

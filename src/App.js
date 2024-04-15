@@ -1,14 +1,11 @@
-import Product from './components/Product'
 import Header from './components/Header'
-import Footer from './components/Footer'
-
+import Product from './components/Product'
 import './App.css'
 
 const App = () => (
-  <div>
+  <div className="app-bg">
     <Header />
     <Product />
-    <Footer />
   </div>
 )
 

@@ -1,27 +1,21 @@
-import {useState} from 'react'
-import {GoHeart} from 'react-icons/go'
+import {TbShoppingBagPlus} from 'react-icons/tb'
 import './index.css'
 
 const ProductCard = props => {
   const {product} = props
-  const {image, title, price} = product
-
-  const [liked, setLiked] = useState(false)
-
-  const handleLikeClick = () => {
-    setLiked(!liked)
-  }
+  const {thumbnail, title, price, discountPercentage} = product
 
   return (
     <div className="product-card">
-      <img src={image} alt={title} className="product-image" />
+      <img src={thumbnail} alt={title} className="product-image" />
       <h3 className="product-title">{title}</h3>
-      <div className="price-liked-bg">
-        <p className="product-price">${price}</p>
-        <GoHeart
-          className={`product-like-icon ${liked ? 'liked' : ''}`}
-          onClick={handleLikeClick}
-        />
+      <div className="price-save-bg">
+        <div className="price-bg">
+          <p className="product-price">${price}</p>
+          <p className="original-price">8999</p>
+          <p className="product-discount">({discountPercentage}%OFF)</p>
+        </div>
+        <TbShoppingBagPlus className="save-icon" />
       </div>
     </div>
   )

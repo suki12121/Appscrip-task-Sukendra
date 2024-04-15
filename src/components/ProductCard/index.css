@@ -1,50 +1,79 @@
 .product-card {
-  width: 300px;
-  height: 542px;
+  width: 250px;
+  height: 482px;
   top: 652px;
   left: 728px;
   gap: 0px;
-  opacity: 0px;
-  margin: 45px;
+  opacity: 1px;
+  margin: 55px;
   flex-grow: 0;
   flex-shrink: 1;
 }
 .product-image {
   width: 300px;
-  height: 399px;
+  height: 349px;
   top: 652px;
   left: 1044px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1px;
+  border-radius: 20px;
 }
 .product-title {
-  font-family: Simplon Norm;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21.6px;
+  font-family: Encode Sans;
+  font-size: 20.5px;
+  font-weight: 500;
+  line-height: 25.62px;
+  letter-spacing: 0.05em;
   text-align: left;
-  color: #252020;
+  color: #e5dfd9;
 }
 .product-price {
-  font-family: Simplon Norm;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
-  color: #888792;
+  font-family: Encode Sans;
+  font-size: 18.79px;
+  font-weight: 700;
+  line-height: 23.49px;
+  text-align: right;
+  color: #e5dfd9;
 }
-.price-liked-bg {
+.price-save-bg {
+  width: 300px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.product-like-icon {
-  width: 24px;
-  height: 24px;
-  gap: 0px;
-  opacity: 0px;
+.price-bg {
+  width: 120.36px;
+  height: 23.92px;
+  top: 435.6px;
+  left: 10.25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.liked {
-  color: red;
+.save-icon {
+  font-family: Font Awesome 5 Pro;
+  font-size: 34.78px;
+  font-weight: 300;
+  line-height: 34.78px;
+  text-align: center;
+  color: #e5dfd9;
+}
+.product-discount {
+  font-family: Encode Sans;
+  font-size: 11.96px;
+  font-weight: 500;
+  line-height: 14.95px;
+  text-align: left;
+  color: #2fc14f;
+}
+.original-price {
+  font-family: Encode Sans;
+  font-size: 11.96px;
+  font-weight: 400;
+  line-height: 14.95px;
+  text-align: right;
+  text-decoration: line-through;
+  color: #e5dfd9;
 }
